@@ -1,0 +1,36 @@
+/* 
+  Localizable.strings
+  hah-auth-ios-swift
+
+  Created by Anton Antonov on 06.07.17.
+  Copyright © 2017 KRIT. All rights reserved.
+*/
+
+//MARK: - Internet
+"No.Connection.Title" = "Отсутствует интернет";
+"No.Connection.Message" = "Проверьте подключение к интернету и повторите попытку";
+
+//MARK: - Alert
+"Alert.Bad.Common.Tittle" = "Ooops!";
+"Alert.Bad.Common.Message" = "Что-то пошло не так. Повторите запрос позже.";
+"Alert.Button.Cancel" = "Закрыть";
+
+//MARK: - Auth Screen
+"Auth.Navigation.Title" = "Авторизация";
+"Auth.Email.Placholder" = "Почта";
+"Auth.Pass.Placeholder" = "Пароль";
+"Auth.Forgot.Button" = "Забыли пароль?";
+"Auth.Signin.Button" = "Войти";
+
+"Auth.Forgot.Title" = "С кем не бывает!";
+"Auth.Forgot.Text" = "Не отчаивайся. Потом обязательно вспомнишь.";
+
+"Auth.Email.Invalid.Title" = "Некорректная почта";
+"Auth.Email.Invalid.Message" = "Проверьте правильность введённой электронной почты";
+"Auth.Password.Invalid.Title" = "Некорректный пароль";
+"Auth.Password.Invalid.Message" = "Минимум 6 символов, должен содержать строчную и заглавную буквы, цифру";
+
+"Auth.Success.Title" = "Успех";
+"Auth.Success.Message" = "Вы успешно авторизовались, но о погоде ничего неизвестно.";
+"Auth.Success.Message" = "Вы успешно авторизовались. На небе %@, %@°";
+"Auth.Success.Close" = "Закрыть";

@@ -1,0 +1,25 @@
+PODS:
+  - Alamofire (4.4.0)
+  - AlamofireObjectMapper (4.1.0):
+    - Alamofire (~> 4.1)
+    - ObjectMapper (~> 2.0)
+  - Mixpanel-swift (2.1.6)
+  - ObjectMapper (2.2.6)
+  - RNNotificationView (2.0.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.4)
+  - AlamofireObjectMapper (~> 4.0)
+  - Mixpanel-swift
+  - RNNotificationView
+
+SPEC CHECKSUMS:
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  AlamofireObjectMapper: 435adc82f5b367679bd9e71c4974a54efd0b2521
+  Mixpanel-swift: 5e7ed752055d70253f3bf5d7804634ad85d050ea
+  ObjectMapper: 042708195cc46c20871cbcbec0453826398273fd
+  RNNotificationView: ba64eb4d03ebf047ca23223e2590761f70b846c9
+
+PODFILE CHECKSUM: 93246e1c12e5770017c0f9bcfa7cd650e37cbdec
+
+COCOAPODS: 1.2.0

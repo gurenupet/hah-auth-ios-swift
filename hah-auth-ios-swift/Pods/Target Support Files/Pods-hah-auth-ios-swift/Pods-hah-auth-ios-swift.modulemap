@@ -1,0 +1,6 @@
+framework module Pods_hah_auth_ios_swift {
+  umbrella header "Pods-hah-auth-ios-swift-umbrella.h"
+
+  export *
+  module * { export * }
+}

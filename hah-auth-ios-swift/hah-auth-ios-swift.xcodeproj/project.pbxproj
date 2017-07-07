@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		360D8609B1022030090834BA /* Pods_hah_auth_ios_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67A35463B939F67267A35D45 /* Pods_hah_auth_ios_swift.framework */; };
+		C31C9D271F0E745C00C8614E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31C9D261F0E745C00C8614E /* AppDelegate.swift */; };
+		C31C9D291F0E745C00C8614E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31C9D281F0E745C00C8614E /* MainViewController.swift */; };
+		C31C9D2C1F0E745C00C8614E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C31C9D2A1F0E745C00C8614E /* Main.storyboard */; };
+		C31C9D2E1F0E745C00C8614E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C31C9D2D1F0E745C00C8614E /* Assets.xcassets */; };
+		C31C9D311F0E745C00C8614E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C31C9D2F1F0E745C00C8614E /* LaunchScreen.storyboard */; };
+		C31C9D391F0E7B5300C8614E /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31C9D381F0E7B5300C8614E /* AuthViewController.swift */; };
+		C3CC1D151F0EAB6C007557C0 /* UIButton+Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CC1D141F0EAB6C007557C0 /* UIButton+Base.swift */; };
+		C3CC1D171F0EAD7E007557C0 /* UIViewController+Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CC1D161F0EAD7E007557C0 /* UIViewController+Base.swift */; };
+		C3CC1D211F0EADF6007557C0 /* JHTAlertAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CC1D1B1F0EADF6007557C0 /* JHTAlertAction.swift */; };
+		C3CC1D221F0EADF6007557C0 /* JHTAlertAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CC1D1C1F0EADF6007557C0 /* JHTAlertAnimation.swift */; };
+		C3CC1D231F0EADF6007557C0 /* JHTAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CC1D1D1F0EADF6007557C0 /* JHTAlertController.swift */; };
+		C3CC1D241F0EADF6007557C0 /* JHTTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CC1D1E1F0EADF6007557C0 /* JHTTextField.swift */; };
+		C3CC1D251F0EADF6007557C0 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CC1D1F1F0EADF6007557C0 /* UIColor+Extension.swift */; };
+		C3CC1D281F0EB809007557C0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CC1D271F0EB809007557C0 /* Constants.swift */; };
+		C3CC1D2A1F0EC539007557C0 /* UITextField+Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CC1D291F0EC539007557C0 /* UITextField+Base.swift */; };
+		C3CC1D2C1F0F7416007557C0 /* String+Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CC1D2B1F0F7416007557C0 /* String+Base.swift */; };
+		C3CC1D331F0FAA1A007557C0 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CC1D321F0FAA1A007557C0 /* Reachability.m */; };
+		C3CC1D361F0FB577007557C0 /* AuthorizationRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CC1D351F0FB577007557C0 /* AuthorizationRequestManager.swift */; };
+		C3CC1D391F0FB60F007557C0 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CC1D381F0FB60F007557C0 /* Weather.swift */; };
+		C3CC1D3C1F0FB723007557C0 /* WeatherResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CC1D3B1F0FB723007557C0 /* WeatherResponseModel.swift */; };
+		C3CC1D411F0FBABA007557C0 /* WeatherRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CC1D401F0FBABA007557C0 /* WeatherRequestModel.swift */; };
+		C3CC1D431F0FCC2B007557C0 /* Temperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CC1D421F0FCC2B007557C0 /* Temperature.swift */; };
+		C3FFB2BD1F0E7EDB00E0B480 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3FFB2BF1F0E7EDB00E0B480 /* Localizable.strings */; };
+		C3FFB2C91F0E8AE800E0B480 /* SFUIText-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = C3FFB2C71F0E8AE800E0B480 /* SFUIText-Medium.otf */; };
+		C3FFB2CA1F0E8AE800E0B480 /* SFUIText-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = C3FFB2C81F0E8AE800E0B480 /* SFUIText-Regular.otf */; };
+		C3FFB2D01F0E8CB000E0B480 /* UIColor+Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FFB2CF1F0E8CB000E0B480 /* UIColor+Base.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		67A35463B939F67267A35D45 /* Pods_hah_auth_ios_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hah_auth_ios_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C31C9D231F0E745C00C8614E /* hah-auth-ios-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hah-auth-ios-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C31C9D261F0E745C00C8614E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C31C9D281F0E745C00C8614E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		C31C9D2D1F0E745C00C8614E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C31C9D321F0E745C00C8614E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C31C9D381F0E7B5300C8614E /* AuthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		C3CC1D141F0EAB6C007557C0 /* UIButton+Base.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Base.swift"; sourceTree = "<group>"; };
+		C3CC1D161F0EAD7E007557C0 /* UIViewController+Base.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Base.swift"; sourceTree = "<group>"; };
+		C3CC1D1B1F0EADF6007557C0 /* JHTAlertAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHTAlertAction.swift; sourceTree = "<group>"; };
+		C3CC1D1C1F0EADF6007557C0 /* JHTAlertAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHTAlertAnimation.swift; sourceTree = "<group>"; };
+		C3CC1D1D1F0EADF6007557C0 /* JHTAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHTAlertController.swift; sourceTree = "<group>"; };
+		C3CC1D1E1F0EADF6007557C0 /* JHTTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHTTextField.swift; sourceTree = "<group>"; };
+		C3CC1D1F1F0EADF6007557C0 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		C3CC1D271F0EB809007557C0 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C3CC1D291F0EC539007557C0 /* UITextField+Base.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Base.swift"; sourceTree = "<group>"; };
+		C3CC1D2B1F0F7416007557C0 /* String+Base.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Base.swift"; sourceTree = "<group>"; };
+		C3CC1D301F0FAA19007557C0 /* hah-auth-ios-swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hah-auth-ios-swift-Bridging-Header.h"; sourceTree = "<group>"; };
+		C3CC1D311F0FAA1A007557C0 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		C3CC1D321F0FAA1A007557C0 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		C3CC1D351F0FB577007557C0 /* AuthorizationRequestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorizationRequestManager.swift; sourceTree = "<group>"; };
+		C3CC1D381F0FB60F007557C0 /* Weather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		C3CC1D3B1F0FB723007557C0 /* WeatherResponseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherResponseModel.swift; sourceTree = "<group>"; };
+		C3CC1D401F0FBABA007557C0 /* WeatherRequestModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherRequestModel.swift; sourceTree = "<group>"; };
+		C3CC1D421F0FCC2B007557C0 /* Temperature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Temperature.swift; sourceTree = "<group>"; };
+		C3FFB2BE1F0E7EDB00E0B480 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C3FFB2C01F0E7F8A00E0B480 /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = ru; path = ru.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C3FFB2C11F0E7F8A00E0B480 /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = ru; path = ru.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C3FFB2C71F0E8AE800E0B480 /* SFUIText-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SFUIText-Medium.otf"; path = "Fonts/SFUIText-Medium.otf"; sourceTree = "<group>"; };
+		C3FFB2C81F0E8AE800E0B480 /* SFUIText-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SFUIText-Regular.otf"; path = "Fonts/SFUIText-Regular.otf"; sourceTree = "<group>"; };
+		C3FFB2CF1F0E8CB000E0B480 /* UIColor+Base.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Base.swift"; sourceTree = "<group>"; };
+		CEC1D66B563A2AF1EFCE8DAC /* Pods-hah-auth-ios-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hah-auth-ios-swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-hah-auth-ios-swift/Pods-hah-auth-ios-swift.release.xcconfig"; sourceTree = "<group>"; };
+		D84E45D595E7D000CA0745DE /* Pods-hah-auth-ios-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hah-auth-ios-swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hah-auth-ios-swift/Pods-hah-auth-ios-swift.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C31C9D201F0E745C00C8614E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				360D8609B1022030090834BA /* Pods_hah_auth_ios_swift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		005825709BEFA4F3C46D2195 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67A35463B939F67267A35D45 /* Pods_hah_auth_ios_swift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6227ADD65DD98EC0DF5CBC91 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D84E45D595E7D000CA0745DE /* Pods-hah-auth-ios-swift.debug.xcconfig */,
+				CEC1D66B563A2AF1EFCE8DAC /* Pods-hah-auth-ios-swift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C31C9D1A1F0E745C00C8614E = {
+			isa = PBXGroup;
+			children = (
+				C31C9D251F0E745C00C8614E /* hah-auth-ios-swift */,
+				C31C9D241F0E745C00C8614E /* Products */,
+				6227ADD65DD98EC0DF5CBC91 /* Pods */,
+				005825709BEFA4F3C46D2195 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C31C9D241F0E745C00C8614E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C31C9D231F0E745C00C8614E /* hah-auth-ios-swift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C31C9D251F0E745C00C8614E /* hah-auth-ios-swift */ = {
+			isa = PBXGroup;
+			children = (
+				C31C9D261F0E745C00C8614E /* AppDelegate.swift */,
+				C3FFB2CB1F0E8BFC00E0B480 /* Common */,
+				C31C9D3C1F0E7BD600C8614E /* Controllers */,
+				C31C9D3A1F0E7BB400C8614E /* Storyboards */,
+				C31C9D3B1F0E7BC100C8614E /* Resources */,
+			);
+			path = "hah-auth-ios-swift";
+			sourceTree = "<group>";
+		};
+		C31C9D3A1F0E7BB400C8614E /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				C31C9D2A1F0E745C00C8614E /* Main.storyboard */,
+				C31C9D2F1F0E745C00C8614E /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		C31C9D3B1F0E7BC100C8614E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C31C9D2D1F0E745C00C8614E /* Assets.xcassets */,
+				C31C9D321F0E745C00C8614E /* Info.plist */,
+				C3CC1D301F0FAA19007557C0 /* hah-auth-ios-swift-Bridging-Header.h */,
+				C3FFB2C61F0E8A4300E0B480 /* Fonts */,
+				C3FFB2BA1F0E7EBA00E0B480 /* Localization */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C31C9D3C1F0E7BD600C8614E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C31C9D281F0E745C00C8614E /* MainViewController.swift */,
+				C31C9D381F0E7B5300C8614E /* AuthViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		C3CC1D181F0EADEC007557C0 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				C3CC1D2F1F0FAA09007557C0 /* Reachability */,
+				C3CC1D191F0EADF6007557C0 /* JHTAlertController */,
+			);
+			name = Libs;
+			sourceTree = "<group>";
+		};
+		C3CC1D191F0EADF6007557C0 /* JHTAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				C3CC1D1B1F0EADF6007557C0 /* JHTAlertAction.swift */,
+				C3CC1D1C1F0EADF6007557C0 /* JHTAlertAnimation.swift */,
+				C3CC1D1D1F0EADF6007557C0 /* JHTAlertController.swift */,
+				C3CC1D1E1F0EADF6007557C0 /* JHTTextField.swift */,
+				C3CC1D1F1F0EADF6007557C0 /* UIColor+Extension.swift */,
+			);
+			name = JHTAlertController;
+			path = Libs/JHTAlertController;
+			sourceTree = "<group>";
+		};
+		C3CC1D261F0EB7F4007557C0 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C3CC1D271F0EB809007557C0 /* Constants.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		C3CC1D2F1F0FAA09007557C0 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				C3CC1D311F0FAA1A007557C0 /* Reachability.h */,
+				C3CC1D321F0FAA1A007557C0 /* Reachability.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		C3CC1D341F0FB55E007557C0 /* Request Managers */ = {
+			isa = PBXGroup;
+			children = (
+				C3CC1D351F0FB577007557C0 /* AuthorizationRequestManager.swift */,
+			);
+			name = "Request Managers";
+			sourceTree = "<group>";
+		};
+		C3CC1D371F0FB59C007557C0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C3CC1D381F0FB60F007557C0 /* Weather.swift */,
+				C3CC1D421F0FCC2B007557C0 /* Temperature.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		C3CC1D3A1F0FB6FC007557C0 /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				C3CC1D3B1F0FB723007557C0 /* WeatherResponseModel.swift */,
+			);
+			name = Responses;
+			sourceTree = "<group>";
+		};
+		C3CC1D3F1F0FBA95007557C0 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				C3CC1D401F0FBABA007557C0 /* WeatherRequestModel.swift */,
+			);
+			name = Requests;
+			sourceTree = "<group>";
+		};
+		C3FFB2BA1F0E7EBA00E0B480 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				C3FFB2BF1F0E7EDB00E0B480 /* Localizable.strings */,
+			);
+			name = Localization;
+			sourceTree = "<group>";
+		};
+		C3FFB2C61F0E8A4300E0B480 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C3FFB2C81F0E8AE800E0B480 /* SFUIText-Regular.otf */,
+				C3FFB2C71F0E8AE800E0B480 /* SFUIText-Medium.otf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		C3FFB2CB1F0E8BFC00E0B480 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				C3FFB2CE1F0E8C6300E0B480 /* Extensions */,
+				C3CC1D261F0EB7F4007557C0 /* Helpers */,
+				C3CC1D181F0EADEC007557C0 /* Libs */,
+				C3CC1D371F0FB59C007557C0 /* Models */,
+				C3CC1D341F0FB55E007557C0 /* Request Managers */,
+				C3CC1D3F1F0FBA95007557C0 /* Requests */,
+				C3CC1D3A1F0FB6FC007557C0 /* Responses */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		C3FFB2CE1F0E8C6300E0B480 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C3FFB2CF1F0E8CB000E0B480 /* UIColor+Base.swift */,
+				C3CC1D141F0EAB6C007557C0 /* UIButton+Base.swift */,
+				C3CC1D161F0EAD7E007557C0 /* UIViewController+Base.swift */,
+				C3CC1D291F0EC539007557C0 /* UITextField+Base.swift */,
+				C3CC1D2B1F0F7416007557C0 /* String+Base.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C31C9D221F0E745C00C8614E /* hah-auth-ios-swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C31C9D351F0E745C00C8614E /* Build configuration list for PBXNativeTarget "hah-auth-ios-swift" */;
+			buildPhases = (
+				D42C4F3CC37FDD8E68F85BAA /* [CP] Check Pods Manifest.lock */,
+				C31C9D1F1F0E745C00C8614E /* Sources */,
+				C31C9D201F0E745C00C8614E /* Frameworks */,
+				C31C9D211F0E745C00C8614E /* Resources */,
+				E5DB2C388768D15FE6000497 /* [CP] Embed Pods Frameworks */,
+				FC8B8643B84AA87A9CF3CA29 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "hah-auth-ios-swift";
+			productName = "hah-auth-ios-swift";
+			productReference = C31C9D231F0E745C00C8614E /* hah-auth-ios-swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C31C9D1B1F0E745C00C8614E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = KRIT;
+				TargetAttributes = {
+					C31C9D221F0E745C00C8614E = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = EL4A9RUHF7;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C31C9D1E1F0E745C00C8614E /* Build configuration list for PBXProject "hah-auth-ios-swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C31C9D1A1F0E745C00C8614E;
+			productRefGroup = C31C9D241F0E745C00C8614E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C31C9D221F0E745C00C8614E /* hah-auth-ios-swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C31C9D211F0E745C00C8614E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C31C9D311F0E745C00C8614E /* LaunchScreen.storyboard in Resources */,
+				C3FFB2BD1F0E7EDB00E0B480 /* Localizable.strings in Resources */,
+				C3FFB2CA1F0E8AE800E0B480 /* SFUIText-Regular.otf in Resources */,
+				C31C9D2E1F0E745C00C8614E /* Assets.xcassets in Resources */,
+				C31C9D2C1F0E745C00C8614E /* Main.storyboard in Resources */,
+				C3FFB2C91F0E8AE800E0B480 /* SFUIText-Medium.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D42C4F3CC37FDD8E68F85BAA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E5DB2C388768D15FE6000497 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hah-auth-ios-swift/Pods-hah-auth-ios-swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC8B8643B84AA87A9CF3CA29 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hah-auth-ios-swift/Pods-hah-auth-ios-swift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C31C9D1F1F0E745C00C8614E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3CC1D241F0EADF6007557C0 /* JHTTextField.swift in Sources */,
+				C3CC1D3C1F0FB723007557C0 /* WeatherResponseModel.swift in Sources */,
+				C3CC1D391F0FB60F007557C0 /* Weather.swift in Sources */,
+				C3CC1D2C1F0F7416007557C0 /* String+Base.swift in Sources */,
+				C3CC1D221F0EADF6007557C0 /* JHTAlertAnimation.swift in Sources */,
+				C3CC1D361F0FB577007557C0 /* AuthorizationRequestManager.swift in Sources */,
+				C31C9D291F0E745C00C8614E /* MainViewController.swift in Sources */,
+				C3CC1D251F0EADF6007557C0 /* UIColor+Extension.swift in Sources */,
+				C31C9D391F0E7B5300C8614E /* AuthViewController.swift in Sources */,
+				C3CC1D2A1F0EC539007557C0 /* UITextField+Base.swift in Sources */,
+				C3FFB2D01F0E8CB000E0B480 /* UIColor+Base.swift in Sources */,
+				C3CC1D231F0EADF6007557C0 /* JHTAlertController.swift in Sources */,
+				C3CC1D331F0FAA1A007557C0 /* Reachability.m in Sources */,
+				C3CC1D411F0FBABA007557C0 /* WeatherRequestModel.swift in Sources */,
+				C3CC1D171F0EAD7E007557C0 /* UIViewController+Base.swift in Sources */,
+				C3CC1D211F0EADF6007557C0 /* JHTAlertAction.swift in Sources */,
+				C3CC1D151F0EAB6C007557C0 /* UIButton+Base.swift in Sources */,
+				C31C9D271F0E745C00C8614E /* AppDelegate.swift in Sources */,
+				C3CC1D431F0FCC2B007557C0 /* Temperature.swift in Sources */,
+				C3CC1D281F0EB809007557C0 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C31C9D2A1F0E745C00C8614E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3FFB2C01F0E7F8A00E0B480 /* ru */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C31C9D2F1F0E745C00C8614E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3FFB2C11F0E7F8A00E0B480 /* ru */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C3FFB2BF1F0E7EDB00E0B480 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3FFB2BE1F0E7EDB00E0B480 /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C31C9D331F0E745C00C8614E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C31C9D341F0E745C00C8614E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C31C9D361F0E745C00C8614E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D84E45D595E7D000CA0745DE /* Pods-hah-auth-ios-swift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = EL4A9RUHF7;
+				INFOPLIST_FILE = "hah-auth-ios-swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.e-krit.hah-auth-ios-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "hah-auth-ios-swift/hah-auth-ios-swift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C31C9D371F0E745C00C8614E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEC1D66B563A2AF1EFCE8DAC /* Pods-hah-auth-ios-swift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = EL4A9RUHF7;
+				INFOPLIST_FILE = "hah-auth-ios-swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.e-krit.hah-auth-ios-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "hah-auth-ios-swift/hah-auth-ios-swift-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C31C9D1E1F0E745C00C8614E /* Build configuration list for PBXProject "hah-auth-ios-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C31C9D331F0E745C00C8614E /* Debug */,
+				C31C9D341F0E745C00C8614E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C31C9D351F0E745C00C8614E /* Build configuration list for PBXNativeTarget "hah-auth-ios-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C31C9D361F0E745C00C8614E /* Debug */,
+				C31C9D371F0E745C00C8614E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C31C9D1B1F0E745C00C8614E /* Project object */;
+}
